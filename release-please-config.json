@@ -1,0 +1,17 @@
+{
+  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
+  "packages": {
+    "case-a-versioning-with-suffix": {
+      "release-type": "simple",
+      "versioning-strategy": "prerelease",
+      "prerelease": true,
+      "prerelease-type": "alpha",
+      "changelog-path": "case-a-versioning-with-suffix/CHANGELOG.md"
+    },
+    "case-b-flag-only-no-suffix": {
+      "release-type": "simple",
+      "prerelease": true,
+      "changelog-path": "case-b-flag-only-no-suffix/CHANGELOG.md"
+    }
+  }
+}
